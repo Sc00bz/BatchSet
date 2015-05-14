@@ -24,7 +24,7 @@ int main()
 		// Merge
 		std::sort(first, last);
 		last = std::unique(first, last);
-		if (mySet.count() != last - first)
+		if (mySet.count() != (size_t) (last - first))
 		{
 			errors++;
 		}
