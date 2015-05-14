@@ -24,6 +24,7 @@
 
 #include <assert.h>
 #include <stdint.h>
+#include <string.h>
 #include <algorithm>
 #include <type_traits>
 
